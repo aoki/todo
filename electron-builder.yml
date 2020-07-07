@@ -1,0 +1,11 @@
+appId: dev.aoki.nextron-template
+productName: Nextron Template
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
